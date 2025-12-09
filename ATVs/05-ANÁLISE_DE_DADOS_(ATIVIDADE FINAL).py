@@ -12,14 +12,6 @@ from pathlib import Path
 # ==================================================
 sns.set_theme(style="darkgrid")
 
-# ==================================================
-#* Caminho correto do arquivo Excel
-#   Estrutura esperada:
-#   DATA/
-#     ├── 05 - ANÁLISE DE DADOS (ATIVIDADE FINAL).xlsx
-#     └── ATVs/
-#         └── 05-ANÁLISE_DE_DADOS_(ATIVIDADE FINAL).py
-# ==================================================
 BASE_DIR = Path(__file__).resolve().parent.parent
 arquivo_excel = BASE_DIR / "05 - ANÁLISE DE DADOS (ATIVIDADE FINAL).xlsx"
 
